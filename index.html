@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Hamburgerdžinica sa najdužom tradicijom. Naručite najukusnije hamburgere od 100% oganske govedine na kućnu adresu.">
+    <meta name="keywords" content="hamburgeri, burgeri, dostava hrane, dostava hamburgera, obroci">
+    <meta name="author" content="Viktor Vokić, viktor011[at]gmail[dot]com">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Kuća Burgera</title>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+    <link rel="stylesheet" href="stil.css" />
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <!-- video landing pocetak -->
+
+    <header class="video-header container">
+        <div class="fullscreen-video">
+            <video muted src="images/burger.mp4" autoplay loop></video>
+        </div>
+
+        <div class="header-overlay"></div>
+
+        <div class="header-content">
+            <img class="logo" src="images/logo.png" alt="logo">
+            <h1>Kuća Burgera</h1>
+            <p>
+                Ovakve burgere još niste probali.
+            </p>
+            <form>
+            <button formaction="#mi" type="submit" class="dugme btn btn-success btn-lg btn-block">Otkrij
+                    najbolji ukus</button></form>
+            <div class="arrow bounce">
+                <i class="strelica fas fa-angle-down fa-2x"></i>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- video landing kraj-->
+
+    
+
+    <!-- navigacija pocetak -->
+
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <a class="navbar-brand" href="#"><span class="fas fa-hamburger"></span> Kuća Burgera</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Početna</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#mi">Mi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#galerija">Galerija</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#meni-ponuda">Meni</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link narucivanje" href="order.html" target="_blank">Naručivanje</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#kontakt">Kontakt</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- navigacija kaj -->
+
+    <!-- mi, o nama pocetak -->
+
+    <div class="servis" id="mi">
+        <div class="row">
+
+            <div class="col-md-6 col-sm-12 col-xs-6 levo">
+            </div>
+
+            <div class="col-md-6 col-sm-12 col-xs-6 o-nama">
+                <h3> Istorija</h3><p>
+                    Hamburgerdžinica sa najdužom tradicijom. Naručite najukusnije hamburgere od 100% oganske govedine na kućnu adresu.
+                    Eveniet velit necessitatibus, dolore architecto magnam reiciendis impedit quod rerum expedita
+                    delectus
+                    adipisci
+                    mollitia? Lorem ipsum dolor sit amet consectetur, <em>dolore architecto.</em></p>
+
+                <p class="burger-2 text-center"><i class="fas fa-utensils viljuska"></i></p>
+
+                
+                    <h3> Tim</h3><p>
+                    Eveniet velit necessitatibus, dolore architecto magnam reiciendis impedit quod rerum expedita
+                    delectus
+                    adipisci
+                    mollitia? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id dolores molestias
+                    consequuntur,
+                    qui, nesciunt
+                    eius aliquam
+                    eveniet velit necessitatibus, <em>dolore architecto magnam.</em>
+                </p>
+
+                <p class="burger-2 text-center"><i class="fas fa-utensils viljuska"></i></p>
+
+                
+                    <h3> Specijaliteti</h3><p>
+                    Eveniet velit necessitatibus, dolore architecto magnam reiciendis impedit quod rerum expedita
+                    delectus
+                    adipisci
+                    mollitia? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id dolores molestias
+                    consequuntur,
+                    qui, nesciunt
+                    eius aliquam
+                    eveniet velit necessitatibus, <em>dolore architecto magnam.</em>
+                </p>
+
+                <p class="burger-2 text-center"><i class="fas fa-utensils viljuska"></i></p>
+
+                
+                    <h3> O Nama</h3>
+                    <p>Eveniet velit necessitatibus, dolore architecto magnam reiciendis impedit quod rerum expedita
+                    delectus
+                    adipisci
+                    mollitia? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id dolores molestias
+                    consequuntur,
+                    qui, nesciunt
+                    eius aliquam
+                    eveniet velit necessitatibus, <em>dolore architecto magnam.</em>
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- mi, o nama kraj -->
+
+
+    <!-- galerija pocetak-->
+
+    <div class="container-g" id="galerija">
+        <div class="row row-1">
+            <div class="col-md-3 col-sm-6 nopadding"><img class="zoom" data-toggle="modal" data-target="#myModal1"
+                    src="https://source.unsplash.com/800x601/?hamburger" alt="hamburger"></div>
+            <div class="col-md-3 col-sm-6 nopadding"><img class="zoom" data-toggle="modal" data-target="#myModal2"
+                    src="https://source.unsplash.com/800x600/?hamburger" alt="hamburger"></div>
+            <div class="col-md-3 col-sm-6 nopadding"><img class="zoom" data-toggle="modal" data-target="#myModal3"
+                    src="https://source.unsplash.com/800x602/?hamburger" alt="hamburger"></div>
+            <div class="col-md-3 col-sm-6 nopadding"><img class="zoom" data-toggle="modal" data-target="#myModal4"
+                    src="https://source.unsplash.com/800x603/?hamburger" alt="hamburger"></div>
+        </div>
+
+        <div class="row row-2">
+            <div class="col-md-3 col-sm-6 nopadding"><img class="zoom" data-toggle="modal" data-target="#myModal5"
+                    src="https://source.unsplash.com/800x601/?burger" alt="hamburger"></div>
+            <div class="col-md-3 col-sm-6 nopadding"><img class="zoom" data-toggle="modal" data-target="#myModal6"
+                    src="https://source.unsplash.com/800x600/?burger" alt="hamburger"></div>
+            <div class="col-md-3 col-sm-6 nopadding"><img class="zoom" data-toggle="modal" data-target="#myModal7"
+                    src="https://source.unsplash.com/800x602/?burger" alt="hamburger"></div>
+            <div class="col-md-3 col-sm-6 nopadding"><img class="zoom" data-toggle="modal" data-target="#myModal8"
+                    src="https://source.unsplash.com/800x603/?burger" alt="hamburger"></div>
+        </div>
+
+        <div class="row row-3">
+            <div class="col-md-3 nopadding"><img class="zoom" data-toggle="modal" data-target="#myModal9"
+                    src="https://source.unsplash.com/800x599/?burger" alt="hamburger"></div>
+            <div class="col-md-3 nopadding"><img class="zoom" data-toggle="modal" data-target="#myModal10"
+                    src="https://source.unsplash.com/800x598/?burger" alt="hamburger"></div>
+            <div class="col-md-3 nopadding"><img class="zoom" data-toggle="modal" data-target="#myModal11"
+                    src="https://source.unsplash.com/800x597/?burger" alt="hamburger"></div>
+            <div class="col-md-3 nopadding"><img class="zoom" data-toggle="modal" data-target="#myModal12"
+                    src="https://source.unsplash.com/800x596/?burger" alt="hamburger"></div>
+        </div>
+    </div>
+
+    <!-- galerija kraj -->
+
+
+    <!-- meni pocetak -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner" id="meni-ponuda">
+            <div class="carousel-item active">
+
+                <div class="container2">
+                    <div class="section-title">
+                        <h2>Meni</h2>
+                        <h4>Obroci za svakoga</h4>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+
+
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+
+                    </div>
+                    <br />
+
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12 col-xs-12">
+                            <div class="media">
+                                <div class="media-object">
+                                <div class="cenica">
+                                    <img src="images/obroci1.jpg" class="img-responsive" alt="obrok" />
+                                    <div class="top-left">250</div>
+                                </div>
+                                </div>
+                                <div class="media-body">
+                                    <h3 class="media-heading">Obrok</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque
+                                        tempus ac eget diam et.</p>
+                                    <p>Cena <strong> 150</strong> dinara</p>
+                                </div>
+                            </div>
+
+                            <div class="media">
+                                <div class="media-object">
+                                <div class="cenica">
+                                    <img src="images/obroci4.jpg" class="img-responsive" alt="obrok" />
+                                    <div class="top-left">250</div>
+                                </div>
+                                </div>
+                                <div class="media-body">
+                                    <h3 class="media-heading">Obrok</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque
+                                        tempus ac eget diam et.
+                                    </p>
+                                    <p>Cena <strong> 150</strong> dinara</p>
+                                </div>
+                            </div>
+
+                            <div class="media">
+                                <div class="media-object">
+                                <div class="cenica">
+                                    <img src="images/obroci3.jpg" class="img-responsive" alt="obrok" />
+                                    <div class="top-left">250</div>
+                                </div>
+                                </div>
+                                <div class="media-body">
+                                    <h3 class="media-heading">Obrok</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque
+                                        tempus ac eget diam et.
+                                    </p>
+                                    <p>Cena <strong> 150</strong> dinara</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-sm-12 col-xs-12">
+                            <div class="media">
+                                <div class="media-object">
+                                    <div class="cenica">
+                                        <img src="images/obroci2.jpg" class="img-responsive" alt="obrok" />
+                                        <div class="top-left">250</div>
+                                    </div>
+                                </div>
+                                <div class="media-body">
+                                    <h3 class="media-heading">Obrok</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque
+                                        tempus ac eget diam et.
+                                    </p>
+                                    <p>Cena <strong> 150</strong> dinara</p>
+                                </div>
+                            </div>
+
+                            <div class="media">
+                                <div class="media-object">
+                                    <div class="cenica">
+                                        <img src="images/obroci5.jpg" class="img-responsive" alt="obrok" />
+                                        <div class="top-left">250</div>
+                                    </div>
+                                </div>
+                                <div class="media-body">
+                                    <h3 class="media-heading">Obrok</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque
+                                        tempus ac eget diam et.
+                                    </p>
+                                    <p>Cena <strong> 150</strong> dinara</p>
+                                </div>
+                            </div>
+
+                            <div class="media">
+                                <div class="media-object">
+                                    <div class="cenica">
+                                        <img src="images/obroci6.jpg" class="img-responsive" alt="obrok" />
+                                        <div class="top-left">250</div>
+                                    </div>
+                                </div>
+                                <div class="media-body">
+                                    <h3 class="media-heading">Obrok</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque
+                                        tempus ac eget diam et.
+                                    </p>
+                                    <p>Cena <strong> 150</strong> dinara</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- row end -->
+                </div>
+
+            </div>
+
+
+            <div class="carousel-item">
+
+                <div class="container2">
+                    <div class="section-title">
+                        <h2>Meni</h2>
+                        <h4>Obroci za svakoga</h4>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+
+
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+
+                    </div>
+                    <br />
+
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12 col-xs-12">
+                            <div class="media">
+                                <div class="media-object">
+                                    <div class="cenica">
+                                        <img src="images/obroci3.jpg" class="img-responsive" alt="obrok" />
+                                        <div class="top-left">250</div>
+                                    </div>
+                                </div>
+                                <div class="media-body">
+                                    <h3 class="media-heading">Obrok</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque
+                                        tempus ac eget diam et.
+                                    </p>
+                                    <p>Cena <strong> 150</strong> dinara</p>
+                                </div>
+                            </div>
+
+                            <div class="media">
+                                <div class="media-object">
+                                    <div class="cenica">
+                                        <img src="images/obroci2.jpg" class="img-responsive" alt="obrok" />
+                                        <div class="top-left">250</div>
+                                    </div>
+                                </div>
+                                <div class="media-body">
+                                    <h3 class="media-heading">Obrok</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque
+                                        tempus ac eget diam et.
+                                    </p>
+                                    <p>Cena <strong> 150</strong> dinara</p>
+                                </div>
+                            </div>
+
+                            <div class="media">
+                                <div class="media-object">
+                                    <div class="cenica">
+                                        <img src="images/obroci1.jpg" class="img-responsive" alt="obrok" />
+                                        <div class="top-left">250</div>
+                                    </div>
+                                </div>
+                                <div class="media-body">
+                                    <h3 class="media-heading">Obrok</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque
+                                        tempus ac eget diam et.
+                                    </p>
+                                    <p>Cena <strong> 150</strong> dinara</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-sm-12 col-xs-12">
+                            <div class="media">
+                                <div class="media-object">
+                                <div class="cenica">
+                                    <img src="images/obroci6.jpg" class="img-responsive" alt="obrok" />
+                                    <div class="top-left">250</div>
+                                </div>
+                                </div>
+                                <div class="media-body">
+                                    <h3 class="media-heading">Obrok</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque
+                                        tempus ac eget diam et.
+                                    </p>
+                                    <p>Cena <strong> 150</strong> dinara</p>
+                                </div>
+                            </div>
+
+                            <div class="media">
+                                <div class="media-object">
+                                    <div class="cenica">
+                                        <img src="images/obroci5.jpg" class="img-responsive" alt="obrok" />
+                                        <div class="top-left">250</div>
+                                    </div>
+                                </div>
+                                <div class="media-body">
+                                    <h3 class="media-heading">Obrok</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque
+                                        tempus ac eget diam et.
+                                    </p>
+                                    <p>Cena <strong> 150</strong> dinara</p>
+                                </div>
+                            </div>
+
+                            <div class="media">
+                                <div class="media-object">
+                                <div class="cenica">
+                                    <img src="images/obroci4.jpg" class="img-responsive" alt="obrok" />
+                                    <div class="top-left">250</div>
+                                </div>
+                                </div>
+                                <div class="media-body">
+                                    <h3 class="media-heading">Obrok</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque
+                                        tempus ac eget diam et.
+                                    </p>
+                                    <p>Cena <strong> 150</strong> dinara</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- row end -->
+                </div>
+
+            </div>
+
+            <div class="carousel-item">
+
+                <div class="container2">
+                    <div class="section-title">
+                        <h2>Ponuda</h2>
+                        <h4>Obroci za svakoga</h4>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+
+
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+
+                    </div>
+                    <br />
+
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12  col-xs-12">
+                            <div class="media">
+                                <div class="media-object">
+                                <div class="cenica">
+                                    <img src="images/obroci2.jpg" class="img-responsive" alt="obrok" />
+                                    <div class="top-left">250</div>
+                                </div>
+                                </div>
+                                <div class="media-body">
+                                    <h3 class="media-heading">Obrok</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque
+                                        tempus ac eget diam et.</p>
+                                    <p>Cena <strong> 150</strong> dinara</p>
+                                </div>
+                            </div>
+
+                            <div class="media">
+                                <div class="media-object">
+                                    <div class="cenica">
+                                        <img src="images/obroci4.jpg" class="img-responsive" alt="obrok" />
+                                        <div class="top-left">250</div>
+                                    </div>
+                                </div>
+                                <div class="media-body">
+                                    <h3 class="media-heading">Obrok</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque
+                                        tempus ac eget diam et.
+                                    </p>
+                                    <p>Cena <strong> 150</strong> dinara</p>
+                                </div>
+                            </div>
+
+                            <div class="media">
+                                <div class="media-object">
+                                    <div class="cenica">
+                                        <img src="images/obroci6.jpg" class="img-responsive" alt="obrok" />
+                                        <div class="top-left">250</div>
+                                    </div>
+                                </div>
+                                <div class="media-body">
+                                    <h3 class="media-heading">Obrok</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque
+                                        tempus ac eget diam et.
+                                    </p>
+                                    <p>Cena <strong> 150</strong> dinara</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-sm-12  col-xs-12">
+                            <div class="media">
+                                <div class="media-object">
+                                    <div class="cenica">
+                                        <img src="images/obroci1.jpg" class="img-responsive" alt="obrok" />
+                                        <div class="top-left">250</div>
+                                    </div>
+                                </div>
+                                <div class="media-body">
+                                    <h3 class="media-heading">Obrok</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque
+                                        tempus ac eget diam et.
+                                    </p>
+                                    <p>Cena <strong> 150</strong> dinara</p>
+                                </div>
+                            </div>
+
+                            <div class="media">
+                                <div class="media-object">
+                                    <div class="cenica">
+                                        <img src="images/obroci3.jpg" class="img-responsive" alt="obrok" />
+                                        <div class="top-left">250</div>
+                                    </div>
+                                    <!-- <span class="menu-price">$64</span> -->
+                                </div>
+                                <div class="media-body">
+                                    <h3 class="media-heading">Obrok</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque
+                                        tempus ac eget diam et.
+                                    </p>
+                                    <p>Cena <strong> 150</strong> dinara</p>
+                                </div>
+                            </div>
+
+                            <div class="media">
+                                <div class="media-object">
+                                    <div class="cenica">
+                                        <img src="images/obroci5.jpg" class="img-responsive" alt="obrok" />
+                                        <div class="top-left">250</div>
+                                    </div>
+                                    <!-- <span class="menu-price">$45</span> -->
+                                </div>
+                                <div class="media-body">
+                                    <h3 class="media-heading">Obrok</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elitquisque
+                                        tempus ac eget diam et.
+                                    </p>
+                                    <p>Cena <strong> 150</strong> dinara</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- row end -->
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- meni kraj -->
+
+    <!-- kontakt pocetak -->
+    <div class="kontakt" id="kontakt">
+        <h2>Pišite nam:</h2>
+
+        <div class="row kontakti">
+            
+
+<div class="col-md-4 forma bife">
+ 
+</div>
+
+            <div class="col-md-4 forma">
+                <!-- pocetak forme -->
+
+               
+
+        <form class="forma" name="forma" method="post" action="forma.php">
+            <!--  za online u action dodati kontakt.php -->
+            <div class="form-group">
+                <label for="ime">Ime i prezime:</label>
+                <input class="form-control" type="text" id="ime" name="ime"
+                    placeholder="Unesite ime i prezime" />
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email adresa:</label>
+                <input class="form-control" type="text" id="email" name="email"
+                    placeholder="Unesite e-mail adresu" />
+            </div>
+            <div class="form-group">
+                <label for="telefon">Telefon:</label>
+                <input class="form-control" type="text" id="telefon" name="telefon"
+                    placeholder="Unesite broj telefona" />
+            </div>
+            <div class="form-group">
+                <label for="poruka">Vaša poruka:</label>
+                <textarea class="form-control" id="poruka" name="poruka" rows="5" placeholder="Vaša poruka do 600 karaktera."></textarea>
+            </div>
+        
+            <button type="button" value="Submit" onclick="proveri()" class="btn btn-block btn-success">Proveri</button>
+        </form>
+
+            </div>
+            <!-- kraj levog prikaza -->
+
+            <!-- pocetak desnog prikaza -->
+            <div class="col-md-4 mapa">
+                <iframe class="gmapa"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2829.8607226071513!2d20.411184315113534!3d44.82440197909858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDTCsDQ5JzI3LjkiTiAyMMKwMjQnNDguMSJF!5e0!3m2!1sen!2srs!4v1552501067547"
+                    allowfullscreen ></iframe>
+            </div>
+            <!-- kraj desnog prikaza -->
+        </div>
+    </div>
+    <!-- kontakt kraj-->
+
+
+
+    <!-- footer i copyright pocetak -->
+
+    <footer>
+        <div class="footer-container">
+            <div class="row">
+
+                <div class="col-md-4 col-sm-12 onama-donji">
+                    <h3>O Nama:</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, perspiciatis laborum maxime
+                        tempore
+                        doloremque, nobis repellat enim beatae fugiat quod debitis explicabo modi. Fugit unde quod, ea
+                        aut tempore
+                        commodi.</p>
+                        <br>
+
+                        <div class="ikonice">
+                            <a href="https://facebook.com" target="blank"><i class="fab fa-3x fa-facebook-f"></i></a>
+                            <a href="https://twitter.com" target="blank"><i class="fab fa-3x fa-twitter"></i></a>
+                            <a href="https://instagram.com" target="blank"><i class="fab fa-3x fa-instagram"></i></a>
+                            <a href="https://yelp.com" target="blank"><i class="fab fa-3x fa-yelp"></i></a>
+                            <a href="https://foursquare.com" target="blank"><i class="fab fa-3x fa-foursquare"></i></a>
+                        </div>
+
+                    
+
+                </div>
+
+                <div class="col-md-4 col-sm-12">
+                    <h3>Kontakt:</h3>
+                    <p><i class="fas fa-map-marked-alt"></i> Ulica Gladnih 7, Beograd, Srbija</p>
+                    <p><i class="fas fa-mobile-alt"></i> 066/123-4567</p>
+                    <p><i class="far fa-envelope"></i> burger@testmail.com</p>
+                </div>
+
+                <div class="col-md-4 col-sm-12">
+                    <h3>Radno vreme:</h3>
+                    <strong>Ponedeljak - Petak</strong>
+                    <p>10:00 - 22:00</p>
+                    <strong>Subota</strong>
+                    <p>12:00 - 01:00</p>
+                    <strong>Nedelja</strong>
+                    <p>Zatvoreno</p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+    <div class="copy-c">
+        <p class="copy"><i class="fa fa-sync-alt fa-spin"></i> Copyright &copy; 2019 <a class="ja-sam" href="#">Viktor Vokić @ CODE</a>
+        </p>
+    </div>
+
+    <!-- footer i copyright kraj-->
+
+    <!-- modal pocetak -->
+
+    <div class="container">
+
+
+        <div class="modal fade" id="myModal1">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <img class="m-slika" src="https://source.unsplash.com/800x601/?hamburger" alt="hamburger">
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Zatvori</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="myModal2">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+
+
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <img class="m-slika" src="https://source.unsplash.com/800x600/?hamburger" alt="hamburger">
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Zatvori</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="myModal3">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <img class="m-slika" src="https://source.unsplash.com/800x602/?hamburger" alt="hamburger">
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Zatvori</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="myModal4">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <img class="m-slika" src="https://source.unsplash.com/800x603/?hamburger" alt="hamburger">
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Zatvori</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="myModal5">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+
+
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <img class="m-slika" src="https://source.unsplash.com/800x601/?burger" alt="hamburger">
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Zatvori</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="myModal6">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+
+
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <img class="m-slika" src="https://source.unsplash.com/800x600/?burger" alt="hamburger">
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Zatvori</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="myModal7">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+
+
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <img class="m-slika" src="https://source.unsplash.com/800x602/?burger" alt="hamburger">
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Zatvori</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="myModal8">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+
+
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <img class="m-slika" src="https://source.unsplash.com/800x603/?burger" alt="hamburger">
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Zatvori</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="myModal9">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+
+
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <img class="m-slika" src="https://source.unsplash.com/800x599/?burger" alt="hamburger">
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Zatvori</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="myModal10">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+
+
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <img class="m-slika" src="https://source.unsplash.com/800x598/?burger" alt="hamburger">
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Zatvori</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="myModal11">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <img class="m-slika" src="https://source.unsplash.com/800x597/?burger" alt="hamburger">
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Zatvori</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="myModal12">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <img class="m-slika" src="https://source.unsplash.com/800x596/?burger" alt="hamburger">
+                    </div>
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Zatvori</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- modal kraj -->
+
+
+
+    <!-- funkcija za collapse on click navbar -->
+
+    <script>
+        $('.navbar-nav>li>a').on('click', function () {
+            $('.navbar-collapse').collapse('hide');
+        });
+    </script>
+
+    <!-- funkcija za collapse on click navbar -->
+
+
+
+<script src="js/kontakt.js"></script>
+
+</body>
+
+</html>

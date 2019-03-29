@@ -1,0 +1,734 @@
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Slabo 27px", serif !important;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333;
+  overflow-x: hidden;
+  letter-spacing: 1.9px;
+}
+
+
+.ukupno-wrapper {
+  border: 2px dotted #28a745;
+  border-radius: 5%;
+  padding: 10px;
+  width: 350px;
+  margin: auto;
+  margin-bottom: 50px;
+  /* position: fixed; */
+  color: #28a745;
+  /* right: 5%; */
+}
+
+
+.broj-artikala {
+  align-items: center;
+  background: crimson;
+  border-radius: 50%;
+  bottom: -4px;
+  color: #fff;
+  display: flex;
+  height: 25px;
+  justify-content: center;
+  position: absolute;
+  right: -4px;
+  width: 25px;
+}
+
+.btn-link {
+  background: #fff;
+  border: 2px solid crimson;
+  color: crimson;
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  transition: .2s;
+}
+
+.btn-link:hover {
+  color: #fff;
+  border: 2px solid #fff;
+  background: crimson;
+}
+
+
+/* za order kraj*/
+
+.narucivanje {
+  color:#008000!important;
+  font-weight: bolder;
+}
+
+.narucivanje:hover {
+  color: #9c9ea1!important;
+
+}
+
+.nar {
+  text-align: center;
+  color: #1e272e;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.rac{
+  text-align: left;
+}
+
+.adr{
+  text-align: left;
+}
+
+.naziv{
+  padding-top: 20px;
+}
+/* header */
+
+.video-header {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.video-header p,
+h1 {
+  color: whitesmoke;
+}
+
+.container {
+  max-width: 1500px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 3%;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.container2 {
+  max-width: 100%;
+  margin-top: 100px;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-bottom: 70px;
+  margin: auto;
+  text-align: left;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/restoran.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: whitesmoke;
+}
+
+.logo {
+  width: 20%;
+  padding-top: 200px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.arrow {
+  text-align: center;
+  margin: 8% 0;
+}
+.bounce {
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+i {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.container2 h2,
+h4 {
+  text-align: center;
+}
+
+.upoznajnas{
+  color: white;
+}
+
+
+.upoznajnas:hover {
+  text-decoration: none;
+  color: silver;
+}
+
+.footer-container h3 {
+  text-align: center;
+}
+
+.footer-container p {
+  font-size: 1.1rem;
+}
+
+.footer-container {
+  text-align: center;
+}
+
+.gmapa{
+
+max-height: auto;
+border: 1px solid lightgray;
+width: 100%;
+height: 100%;
+
+}
+
+.viljuska{
+  color: #333;
+}
+
+.m-slika{
+  width: 100%;
+}
+
+.container2 h2 {
+  padding-top: 50px;
+}
+
+.container-g img {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+
+.container-g{
+  padding: 50px 0 0;
+  max-width: 100%;
+}
+
+
+
+.nopadding {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.fullscreen-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.fullscreen-video video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.header-overlay {
+  height: 100vh;
+  /* width: 100vW; */
+  max-width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: black;
+  z-index: 1;
+  opacity: 0.5;
+}
+
+.header-content {
+  z-index: 2;
+}
+
+.header-content h1 {
+  font-size: 100px;
+  margin-bottom: 0;
+  font-family: "Slabo 27px", serif;
+  font-weight: 900;
+  letter-spacing: 1px;
+  position: relative;
+}
+
+.header-content p {
+  font-size: 1.5rem;
+  display: block;
+  padding-bottom: 2rem;
+}
+
+.dugme {
+  background: green!important;
+  color: white;
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border: white 1px solid;
+  width: 250px!important;
+  margin: auto;
+}
+
+
+.dugme:hover {
+  color: white;
+  text-decoration: none;
+  background: darkgreen !important;
+}
+
+.zoom {
+  transition: transform 0.2s;
+}
+
+.zoom:hover {
+  transform: scale(0.97);
+  transition: transform 0.2s;
+}
+
+.navbar-brand {
+  margin-left: 5%;
+}
+
+.navbar-nav {
+  margin-right: 5%;
+}
+
+.navbar{
+  position: sticky;
+}
+
+/* header */
+
+/* zasto mi */
+
+.parallax-section {
+  background-color: #ecf0f1;
+  padding-bottom: 130px;
+  padding-top: 75px;
+}
+
+.parallax-section-2 p {
+  color: whitesmoke;
+  text-align: left;
+}
+
+#feature .feature-thumb {
+  background-color: white;
+  position: relative;
+  padding-top: 55px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 70px;
+  border-radius: 10px;
+  height: 100%;
+}
+#feature .feature-icon {
+  background-color: #222;
+  width: 85px;
+  height: 85px;
+  margin: 0 auto;
+  top: 0;
+  margin-top: -75px; /* izbacije izvan okvira */
+  margin-bottom: 30px;
+  position: relative;
+  border-radius: 50%;
+  display: table;
+  text-align: center;
+  /* transition: all 0.4s ease-in-out; */
+}
+#feature .feature-icon:hover {
+  background-color: #2ecc71;
+}
+#feature .feature-icon span {
+  display: table-cell;
+  vertical-align: middle;
+}
+#feature .feature-icon .fa {
+  color: #ffffff;
+  font-size: 36px;
+  margin: 0;
+  padding: 0;
+}
+
+#feature h3 {
+  padding-top: 14px;
+  padding-bottom: 10px;
+}
+
+.fa{
+  color: #212529;
+}
+
+/* zasto mi */
+
+/* sta nudimo */
+
+#menu .media {
+  padding-bottom: 20px;
+}
+
+#menu .media-object img {
+  width: 220px;
+  padding-right: 12px;
+  position: relative;
+}
+
+/* sta nudimo */
+
+/* servis */
+
+    .cenica {
+      position: relative;
+      text-align: center;
+      color: white;
+    }
+
+    .top-left {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: green;
+      color: white;
+      padding: 8px;
+      border-radius: 50%;
+    }
+
+
+.servis {
+  margin: 2%;
+ /*  overflow: hidden; */
+  padding-top: 60px;
+}
+
+.servis h2 {
+  text-align: center;
+}
+
+.servis p {
+  text-align: justify;
+}
+
+/* servis */
+
+/* tim */
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 100%;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#kontakt {
+  text-align: left;
+  background-color: #ecf0f1;
+  margin-bottom: 0;
+  padding-top: 50px;
+/*   padding-bottom: 30px; */
+}
+
+.media-body {
+  flex: auto;
+  padding-left: 30px;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.title {
+  color: #1e272e;
+}
+
+/* img {
+    border-radius: 5px;
+} */
+
+.onama-donji{
+  text-align: justify;
+}
+
+.kontakt h2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: #1e272e;
+  background-color: #ecf0f1;
+  margin: 0;
+}
+
+.kontakti {
+  /* max-width: 100%; */
+  margin-top: 100px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 70px;
+  background-color: #ecf0f1;
+  display: flex;
+}
+
+
+.thumbnail img{
+  width:100%;
+}
+
+/* tim */
+
+/* footer */
+
+footer {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(images/footer.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #757575;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  font-size: 0.9rem;
+}
+
+footer h3 {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+footer p {
+  color: lightgray;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+ .levo {
+  background-image: url('images/burger-md.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+
+.o-nama {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.ikonice {
+  text-align: center;
+  letter-spacing: 10px;
+}
+
+.ikonice i:hover{
+  color: green;
+}
+
+footer strong {
+  color: #f0f0f0;
+  display: block;
+  text-align: center;
+}
+
+
+.container-3 h2 p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.row img{
+  width: 100%;
+}
+
+.row {
+
+    display: flex;
+margin: 0;
+    flex-wrap: wrap;
+}
+
+input[type="number"] {
+   width:50px;
+}
+
+.copy {
+  text-align: center;
+  padding: 20px;
+  margin: 0;
+}
+
+.container2 img {
+  width: 220px;
+  padding-bottom: 10px;
+}
+
+.logo {
+  width: 20%;
+  padding-top: 200px;
+}
+
+.nav-item{
+  text-align: center;
+}
+
+.carousel-inner {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(images/restoran.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: lightgray;
+  padding-top: 20px;
+}
+
+.bife {
+    background-image: url('images/buffet.jpg');
+    background-position: center;
+    background-size: cover;
+    
+  }
+
+.ja-sam{
+    color: green;
+  }
+
+  
+
+/* ------ media ------ */
+
+@media (max-width:960px) {
+  .container {
+    padding-right: 3rem;
+    padding-left: 3rem;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+
+@media (max-width: 960px) {
+  .fullscreen-video {
+    background: url("images/burger-header.jpeg");
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .fullscreen-video video {
+    display: none;
+  }
+
+  
+}
+
+
+@media screen and (max-width: 960px){
+
+.row-3{
+  display: none!important;
+}
+
+.zoom {
+  transition: none;
+}
+
+.zoom:hover {
+  transform: none;
+  transition: none;
+}
+
+.col-md-3 {
+
+   flex: 50%!important;
+   max-width: 50%;
+}
+
+.mapa{
+  padding-top: 50px;
+}
+
+.gmapa{
+
+border: 1px solid lightgray;
+height: 500px;
+
+}
+
+}
+
+@media screen and (max-width: 500px){
+
+
+.row-2{
+  display: none!important;
+}
+
+.row-3{
+  display: none!important;
+}
+
+.zoom {
+  transition: none;
+  
+}
+
+.zoom:hover {
+  transform: none;
+  transition: none;
+}
+
+
+.mapa{
+  padding-top: 50px;
+}
+
+.gmapa{
+
+height: 500px;
+border: 1px solid lightgray;
+
+}
+
+}

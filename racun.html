@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prodavnica</title>
+  <link rel="stylesheet" href="../Burger House/stil.css">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <div class="container">
+
+
+<h1 class="nar">Vaša porudžbina:</h1>
+<hr>
+
+  <div class="row">
+
+    <div class="col rac">
+      <div class="wrapper" action="index.html" method="post">
+        
+      
+        <h3>Račun</h3>
+      
+        <p id="poruka"></p>
+      
+        <p>Vaš račun iznosi ukupno<span id="iznos">0</span> dinara.</p>
+      </div>
+    </div>
+
+    <div class="col adr">
+    <h3>Adresa primaoca</h3>
+    
+    <div class="form-group">
+      <label for="">Ime i prezime:</label><br>
+      <input type="text" name="" value="">
+    </div>
+    
+    <div class="form-group">
+      <label for="">Adresa:</label><br>
+      <textarea name="name" rows="4" cols="22"></textarea>
+    </div>
+    
+    <div class="form-group">
+      <label for="">Telefon:</label><br>
+      <input type="text" name="" value="">
+    </div>
+    
+    <p>* Zagarantovana isporuka za 30 minuta.</p>
+    
+    <a href="order.html" class="btn btn-warning">Nazad</a>
+    <button id="startClock" event="startClock" class="btn btn-success">Naruči</button>
+    </div>
+    </div>
+
+  </div>
+  </div>
+
+
+        <script src="js/naruci.js"></script>
+
+        <script>
+        $("#startClock").click(function () {
+            var counter = 5;
+            setInterval(function () {
+              counter--;
+              if (counter >= 0) {
+                span = document.getElementById("count");
+                span.innerHTML = counter;
+              }
+              if (counter === 0) {
+                alert('sorry, out of time');
+                clearInterval(counter);
+              }
+            }, 100);
+
+          });</script>
+</body>
+
+</html>

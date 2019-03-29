@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Naručivanje</title>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+    <link rel="stylesheet" href="stil.css" />
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+
+<!-- navigacija pocetak -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <a class="navbar-brand" href="#"><span class="fas fa-hamburger"></span> Kuća Burgera</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Početna</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html#mi">Mi</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html#galerija">Galerija</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html#meni-ponuda">Meni</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link narucivanje" href="order.html" target="_blank">Naručivanje</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html#kontakt">Kontakt</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<!-- navigacija kaj -->
+
+
+<!-- pocetak narucivanja -->
+
+  <a href="narucivanje.html" class="kolica-wrapper"></a>
+  <span class="broj-artikala" id="broj-artikala">0</span>
+  </a>
+
+  <div class="container">
+
+    <div class="wrapper">
+
+      
+      <h1 class="nar">Naručivanje hrane</h1>
+<h2>Izaberite sendvič:</h2>
+<hr>
+      <div class="row">
+
+        
+        
+        <div class="col-sm-6 col-md-4">
+          <h3 class="naziv">Hamburger</h3>
+          <img src="images/meni1.jpg" alt="proizvod">
+          <div class="opis">
+            
+          </div>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, earum?</p>
+          Cena <span class="cena">200</span> din <br>
+          <input type="number" min=0 value=0> kom.
+        </div>
+
+        <div class="col-sm-6 col-md-4">
+          <h3 class="naziv">Čizburger</h3>
+          <img src="images/meni2.jpg" alt="proizvod">
+          <div class="opis">
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, cum!</p>
+          Cena <span class="cena">250</span> din <br>
+          <input type="number" min=0 value=0> kom.
+        </div>
+
+        <div class="col-sm-6 col-md-4">
+          <h3 class="naziv">Čiken</h3>
+          <img src="images/meni3.jpg" alt="proizvod">
+          <div class="opis">
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, omnis?</p>
+          Cena <span class="cena">200</span> din <br>
+          <input type="number" min=0 value=0> kom.
+        </div>
+
+        <div class="col-sm-6 col-md-4">
+          <h3 class="naziv">Fišburger</h3>
+          <img src="images/meni4.jpg" alt="proizvod">
+          <div class="opis">
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, laborum!</p>
+          Cena <span class="cena">220</span> din <br>
+          <input type="number" min=0 value=0> kom.
+        </div>
+
+        <div class="col-sm-6 col-md-4">
+          <h3 class="naziv">Tost</h3>
+          <img src="images/meni5.jpg" alt="proizvod">
+          <div class="opis">
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, delectus!</p>
+          Cena <span class="cena">180</span> din <br>
+          <input type="number" min=0 value=0> kom.
+        </div>
+
+        <div class="col-sm-6 col-md-4">
+          <h3 class="naziv">Jaje</h3>
+          <img src="images/meni6.jpg" alt="proizvod">
+          <div class="opis">
+            
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, praesentium.</p>
+          Cena <span class="cena">150</span> din <br>
+          <input type="number" min=0 value=0> kom.
+        </div>
+      </div>
+
+<br><br>
+<!-- pica -->
+<h2>Izaberite piće:</h2>
+<hr>
+<div class="row">
+
+  <div class="col-sm-6 col-md-2">
+          <h3 class="naziv">Koca</h3>
+
+    <img class="thumbnail" src="images/kokakola.jpg" alt="proizvod">
+    <div class="opis">
+    </div>
+    Cena <span class="cena">90</span> din <br>
+    <input type="number" min=0 value=0> kom.
+  </div>
+
+  <div class="col-sm-6 col-md-2">
+          <h3 class="naziv">Zero</h3>
+
+    <img class="thumbnail" src="images/zero.jpg" alt="proizvod">
+    <div class="opis">
+    </div>
+    Cena <span class="cena">90</span> din <br>
+    <input type="number" min=0 value=0> kom.
+  </div>
+
+  <div class="col-sm-6 col-md-2">
+          <h3 class="naziv">Fanta</h3>
+
+    <img class="thumbnail" src="images/fanta.jpg" alt="proizvod">
+    <div class="opis">
+    </div>
+    Cena <span class="cena">90</span> din <br>
+    <input type="number" min=0 value=0> kom.
+  </div>
+
+  <div class="col-sm-6 col-md-2">
+          <h3 class="naziv">Voda</h3>
+
+    <img class="thumbnail" src="images/voda.jpg" alt="proizvod">
+    <div class="opis">
+    </div>
+    Cena <span class="cena">60</span> din <br>
+    <input type="number" min=0 value=0> kom.
+  </div>
+
+  <div class="col-sm-6 col-md-2">
+          <h3 class="naziv">Pomfrit</h3>
+
+    <img class="thumbnail" src="images/pomfrit.jpg" alt="proizvod">
+    <div class="opis">
+    </div>
+    Cena <span class="cena">100</span> din <br>
+    <input type="number" min=0 value=0> kom.
+  </div>
+
+  <div class="col-sm-6 col-md-2">
+          <h3 class="naziv">Salata</h3>
+
+    <img class="thumbnail" src="images/salata.jpg" alt="proizvod">
+    <div class="opis">
+    </div>
+    Cena <span class="cena">100</span> din <br>
+    <input type="number" min=0 value=0> kom.
+  </div>
+</div>
+
+<!-- pica kraj  -->
+<br><br>
+<h2>Izaberite dezert:</h2>
+<hr>
+<!-- dezerti -->
+
+<div class="row">
+
+  <div class="col-sm-6 col-md-2">
+    <h3 class="naziv">Kolačić</h3>
+
+    <img class="thumbnail" src="images/kuki.jpg" alt="proizvod">
+    <div class="opis">
+    </div>
+    Cena <span class="cena">100</span> din <br>
+    <input type="number" min=0 value=0> kom.
+  </div>
+
+  <div class="col-sm-6 col-md-2">
+    <h3 class="naziv">Šejk</h3>
+
+    <img class="thumbnail" src="images/sejk.jpg" alt="proizvod">
+    <div class="opis">
+    </div>
+    Cena <span class="cena">150</span> din <br>
+    <input type="number" min=0 value=0> kom.
+  </div>
+
+  <div class="col-sm-6 col-md-2">
+    <h3 class="naziv">Torta</h3>
+
+    <img class="thumbnail" src="images/torta.jpg" alt="proizvod">
+    <div class="opis">
+    </div>
+    Cena <span class="cena">150</span> din <br>
+    <input type="number" min=0 value=0> kom.
+  </div>
+
+  <div class="col-sm-6 col-md-2">
+    <h3 class="naziv">Sladoled</h3>
+
+    <img class="thumbnail" src="images/sladoled.jpg" alt="proizvod">
+    <div class="opis">
+    </div>
+    Cena <span class="cena">100</span> din <br>
+    <input type="number" min=0 value=0> kom.
+  </div>
+
+  <div class="col-sm-6 col-md-2">
+    <h3 class="naziv">Kafa</h3>
+
+    <img class="thumbnail" src="images/kafa.jpg" alt="proizvod">
+    <div class="opis">
+    </div>
+    Cena <span class="cena">80</span> din <br>
+    <input type="number" min=0 value=0> kom.
+  </div>
+
+  <div class="col-sm-6 col-md-2">
+    <h3 class="naziv">Jabuka</h3>
+
+    <img class="thumbnail" src="images/jabuka.jpg" alt="proizvod">
+    <div class="opis">
+    </div>
+    Cena <span class="cena">50</span> din <br>
+    <input type="number" min=0 value=0> kom.
+  </div>
+</div>
+<!-- dezerti kraj -->
+
+
+    
+<br><br>
+
+    <h3 class="ukupno-wrapper">Ukupno <span id="ukupno">0</span> din</h3>
+    
+    <a href="order.html" class="btn btn-warning btn-lg">Resetuj</a>
+    <a href="racun.html" class="btn btn-success btn-lg">Dalje</a>
+    
+    <br>
+    <br>
+
+  </div>
+</div>
+  <script src="js/main.js"></script>
+
+<!-- kraj narucivanja -->
+
+    <!-- footer i copyright pocetak -->
+    
+    <footer>
+      <div class="footer-container">
+        <div class="row">
+    
+          <div class="col-md-4 col-sm-12 onama-donji">
+            <h3>O Nama:</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, perspiciatis laborum maxime
+              tempore
+              doloremque, nobis repellat enim beatae fugiat quod debitis explicabo modi. Fugit unde quod, ea
+              aut tempore
+              commodi.
+              <br><br>
+    
+              <div class="ikonice">
+                <a href="https://facebook.com" target="blank"><i class="fab fa-3x fa-facebook-f"></i></a>
+                <a href="https://twitter.com" target="blank"><i class="fab fa-3x fa-twitter"></i></a>
+                <a href="https://instagram.com" target="blank"><i class="fab fa-3x fa-instagram"></i></a>
+                <a href="https://yelp.com" target="blank"><i class="fab fa-3x fa-yelp"></i></a>
+                <a href="https://foursquare.com" target="blank"><i class="fab fa-3x fa-foursquare"></i></a>
+              </div>
+    
+            </p>
+    
+          </div>
+    
+          <div class="col-md-4 col-sm-12">
+            <h3>Kontakt:</h3>
+            <p><i class="fas fa-map-marked-alt"></i> Ulica Gladnih 7, Beograd, Srbija</p>
+            <p><i class="fas fa-mobile-alt"></i> 066/123-4567</p>
+            <p><i class="far fa-envelope"></i> burger@testmail.com</p>
+          </div>
+    
+          <div class="col-md-4 col-sm-12">
+            <h3>Radno vreme:</h3>
+            <strong>Ponedeljak - Petak</strong>
+            <p>10:00 - 22:00</p>
+            <strong>Subota</strong>
+            <p>12:00 - 01:00</p>
+            <strong>Nedelja</strong>
+            <p>Zatvoreno</p>
+          </div>
+    
+        </div>
+      </div>
+    </footer>
+    
+    
+    <div class="copy-c">
+      <p class="copy"><i class="fa fa-sync-alt fa-spin"></i> Copyright &copy; 2019 <a class="ja-sam" href="#">Viktor Vokić @
+          CODE</a>
+      </p>
+    </div>
+    
+    <!-- footer i copyright kraj-->
+
+
+
+
+<!-- funkcija za collapse on click navbar -->
+
+<script>
+  $('.navbar-nav>li>a').on('click', function () {
+    $('.navbar-collapse').collapse('hide');
+  });
+</script>
+
+<!-- funkcija za collapse on click navbar -->
+
+
+</body>
+
+</html>
