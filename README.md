@@ -1,5 +1,5 @@
 # Final project - Burger House
 
-(design, HTML, CSS, js, online hostin)
+(Idea, design, HTML, CSS, responsive, JS, online hosting)
 
 <img src="https://i.ibb.co/tCW8bP5/preview.jpg">
