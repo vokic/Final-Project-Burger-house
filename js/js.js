@@ -31,6 +31,44 @@ function ukupanIznos(event) {
     kolOsamnaesti = parseInt(document.getElementById("osamnaest").value, 10) || 0
 
 
+/*     grad = document.getElementById("s-grad").value;
+
+  var methods = document.getElementById("proizvodi").r_method,
+    isporukaMetod;
+
+  for (var i = 0; i < methods.length; i++) {
+    if (methods[i].checked == true) {
+      isporukaMetod = methods[i].value;
+    }
+  } */
+
+/*   var pdvIznos = 1;
+  if (grad === "DR") {
+    pdvIznos = 1.20; // pdv od 20%
+  }
+ */
+
+/*   var cenaIsporukePo = 0;
+  switch (isporukaMetod) {
+    case "senf":
+      cenaIsporukePo = 50;
+      break;  // traži dalje
+    case "kecap":
+      cenaIsporukePo = 50;
+      break;
+    case "ljuto":
+      cenaIsporukePo = 50;
+      break;
+    case "krastvcici":
+      cenaIsporukePo = 50;
+      break;  // traži dalje
+    case "kackavalj":
+      cenaIsporukePo = 100;
+      break;
+    case "slaninica":
+      cenaIsporukePo = 100;
+      break;
+  } */
   var ukupnoProizvoda = kolPrvi + kolDrugi + kolTreci + kolCetvrti + kolPeti + kolSesti + kolSedmi + kolOsmi + kolDeveti + kolDeseti + kolJedanaesti + kolDvanaesti + kolTrinaesti + kolCetrnaesti + kolPetnaesti + kolSesnaesti + kolSedamnaesti + kolOsamnaesti;
 
   var korpa = ((kolPrvi * 250) + (kolDrugi * 250) + (kolTreci * 200) + (kolCetvrti * 150) + (kolPeti * 150) + (kolSesti * 100) + (kolSedmi * 100) + (kolOsmi * 100) + (kolDeveti * 100) + (kolDeseti * 100) + (kolJedanaesti * 150) + (kolDvanaesti * 150) + (kolTrinaesti * 50) + (kolCetrnaesti * 50) + (kolPetnaesti * 50) + (kolSesnaesti * 50) + (kolSedamnaesti * 100) + (kolOsamnaesti * 100)) ;
@@ -41,4 +79,8 @@ function ukupanIznos(event) {
 
   document.getElementById("rezultati").innerHTML = "Ukupno proizvoda: " + ukupnoProizvoda + '<br>';
 
+  /* document.getElementById("rezultati").innerHTML += "Cena isporuke: " + isporukaCena.toFixed(2) + '<br>'; */
+
+
+  /* document.getElementById("rezultati").innerHTML += "PDV: " + ((pdvIznos - 1) * 100).toFixed(2) + '%'; */
 }
